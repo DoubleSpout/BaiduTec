@@ -1,3 +1,5 @@
 # Samples folders
 - ^node.js/
 - ^tagg2/
+- ^child_fork/
+- ^child_spawn/
