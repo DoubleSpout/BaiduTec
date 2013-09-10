@@ -1,0 +1,32 @@
+2013/07/28 17:07:04 [error] 9667#0: *1 failed to load Lua inlined code: [string "content_by_lua"]:1: '=' expected near '/', client: 192.168.1.106, server: , request: "GET / HTTP/1.1", host: "192.168.1.220:8080"
+2013/07/28 17:07:05 [error] 9667#0: *2 failed to load Lua inlined code: [string "content_by_lua"]:1: '=' expected near '/', client: 192.168.1.106, server: , request: "GET / HTTP/1.1", host: "192.168.1.220:8080"
+2013/07/28 17:07:05 [error] 9667#0: *3 failed to load Lua inlined code: [string "content_by_lua"]:1: '=' expected near '/', client: 192.168.1.106, server: , request: "GET / HTTP/1.1", host: "192.168.1.220:8080"
+2013/07/28 17:07:54 [error] 9667#0: *4 failed to load Lua inlined code: [string "content_by_lua"]:1: '=' expected near '/', client: 192.168.1.106, server: , request: "GET / HTTP/1.1", host: "192.168.1.220:8080"
+2013/07/28 17:07:54 [error] 9667#0: *5 failed to load Lua inlined code: [string "content_by_lua"]:1: '=' expected near '/', client: 192.168.1.106, server: , request: "GET / HTTP/1.1", host: "192.168.1.220:8080"
+2013/07/28 17:08:17 [error] 9667#0: *6 failed to load Lua inlined code: [string "content_by_lua"]:1: '=' expected near '/', client: 192.168.1.106, server: , request: "GET / HTTP/1.1", host: "192.168.1.220:8080"
+2013/07/28 17:08:17 [error] 9667#0: *7 failed to load Lua inlined code: [string "content_by_lua"]:1: '=' expected near '/', client: 192.168.1.106, server: , request: "GET / HTTP/1.1", host: "192.168.1.220:8080"
+2013/07/28 17:08:17 [error] 9667#0: *8 failed to load Lua inlined code: [string "content_by_lua"]:1: '=' expected near '/', client: 192.168.1.106, server: , request: "GET / HTTP/1.1", host: "192.168.1.220:8080"
+2013/07/28 17:14:53 [warn] 9723#0: lua_code_cache is off; this will hurt performance in /usr/local/ngx_lua/fibo/conf/nginx.conf:8
+2013/07/28 17:18:25 [error] 9725#0: *3 lua entry thread aborted: runtime error: /usr/local/ngx_lua/fibo/lua/fibo.lua:10: attempt to compare number with string
+stack traceback:
+coroutine 0:
+	/usr/local/ngx_lua/fibo/lua/fibo.lua: in function 'sleep'
+	/usr/local/ngx_lua/fibo/lua/fibo.lua:13: in function </usr/local/ngx_lua/fibo/lua/fibo.lua:1>, client: 192.168.1.106, server: , request: "GET /?n=5 HTTP/1.1", host: "192.168.1.220:8080"
+2013/07/28 17:23:53 [error] 9725#0: *6 failed to load Lua inlined code: cannot open /usr/local/ngx_lua/fibo/lua/fibo.lua: No such file or directory, client: 192.168.1.106, server: , request: "GET /?n=10 HTTP/1.1", host: "192.168.1.220:8080"
+2013/07/28 17:24:25 [warn] 9745#0: lua_code_cache is off; this will hurt performance in /usr/local/ngx_lua/fibo/conf/nginx.conf:8
+2013/07/28 17:24:28 [error] 9747#0: *1 failed to load Lua inlined code: /usr/local/ngx_lua/fibo/lua/thread.lua:14: ')' expected near '.', client: 192.168.1.106, server: , request: "GET /?n=10 HTTP/1.1", host: "192.168.1.220:8080"
+2013/07/28 17:42:31 [warn] 9783#0: lua_code_cache is off; this will hurt performance in /usr/local/ngx_lua/fibo/conf/nginx.conf:8
+2013/07/28 17:55:46 [error] 9786#0: *7 failed to load Lua inlined code: /usr/local/ngx_lua/fibo/lua/thread.lua:10: '=' expected near 'ngx', client: 192.168.1.106, server: , request: "GET /?n=10 HTTP/1.1", host: "192.168.1.220:8080"
+2013/07/28 18:03:48 [error] 9785#0: *11 failed to load Lua inlined code: /usr/local/ngx_lua/fibo/lua/thread.lua:7: unexpected symbol near '/', client: 192.168.1.106, server: , request: "GET /?n=10 HTTP/1.1", host: "192.168.1.220:8080"
+2013/07/28 18:07:25 [warn] 9833#0: lua_code_cache is off; this will hurt performance in /usr/local/ngx_lua/fibo/conf/nginx.conf:14
+2013/07/28 18:07:25 [emerg] 9833#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2013/07/28 18:07:25 [emerg] 9833#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2013/07/28 18:07:25 [emerg] 9833#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2013/07/28 18:07:25 [emerg] 9833#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2013/07/28 18:07:42 [warn] 9841#0: lua_code_cache is off; this will hurt performance in /usr/local/ngx_lua/fibo/conf/nginx.conf:14
+2013/07/28 18:09:03 [warn] 9852#0: lua_code_cache is off; this will hurt performance in /usr/local/ngx_lua/fibo/conf/nginx.conf:14
+2013/07/28 18:10:08 [warn] 9862#0: lua_code_cache is off; this will hurt performance in /usr/local/ngx_lua/fibo/conf/nginx.conf:14
+2013/07/28 18:10:36 [warn] 9868#0: lua_code_cache is off; this will hurt performance in /usr/local/ngx_lua/fibo/conf/nginx.conf:14
+2013/07/28 18:11:42 [warn] 9877#0: lua_code_cache is off; this will hurt performance in /usr/local/ngx_lua/fibo/conf/nginx.conf:14
+2013/07/28 18:13:38 [warn] 9888#0: lua_code_cache is off; this will hurt performance in /usr/local/ngx_lua/fibo/conf/nginx.conf:14
+2013/07/28 18:14:20 [warn] 9894#0: lua_code_cache is off; this will hurt performance in /usr/local/ngx_lua/fibo/conf/nginx.conf:14

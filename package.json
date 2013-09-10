@@ -1,0 +1,27 @@
+{
+  "author": {
+    "name": "doublespout",
+    "email": "snoopyxdy@163.com",
+    "url": "http://snoopyxdy.blog.163.com"
+  },
+  "name": "BaiduTec_42",
+  "description": "nodejs BaiduTec_42 source",
+  "keywords": [
+    "node"
+  ],
+  "version": "0.1.5",
+  "url": "https://github.com/DoubleSpout/BaiduTec",
+  "homepage": "https://github.com/DoubleSpout/BaiduTec",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DoubleSpout/BaiduTec.git"
+  },
+  "engines": {
+    "node":">=0.10.0"
+  },
+  "dependencies":{
+       "ifile":"*",
+       "tagg2":"*",
+       "express":"*"
+  }
+}
